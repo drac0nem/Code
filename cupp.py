@@ -2,7 +2,7 @@
 ####
 #
 #  [Program]
-#  CUPP 1.0
+#  CUPP 2.0
 #  Common User Passwords Profiler
 #
 #  [Author]
@@ -335,16 +335,16 @@ komb9 = list(komb(word, wbdss))
 komb10 = list(komb(word, kbdss))
 komb11 = list(komb(word, years))
 # adding random numbers from 0 to 1000, you can change this...
-komb12 = list(concats(word, 0, 1000))
-komb13 = list(concats(kombinaa, 0, 1000))
-komb14 = list(concats(kombinaac, 0, 1000))
-komb15 = list(concats(kombinaaw, 0, 1000))
-komb16 = list(concats(kombinaak, 0, 1000))
+komb12 = list(concats(word, 0, 1500))
+komb13 = list(concats(kombinaa, 0, 1500))
+komb14 = list(concats(kombinaac, 0, 1500))
+komb15 = list(concats(kombinaaw, 0, 1500))
+komb16 = list(concats(kombinaak, 0, 1500))
 komb17 = list(komb(reverse, years))
 komb18 = list(komb(rev_w, years))
 komb19 = list(komb(rev_k, kbdss))
 komb20 = list(komb(rev_n, bdss))
-komb21 = list(concats(reverse, 0, 1000))
+komb21 = list(concats(reverse, 0, 1500))
 
 print BUS+"[*]"+WHITE+" Sorting list and removing duplicates..."
 
