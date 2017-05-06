@@ -7,7 +7,7 @@
 #
 #  [Author]
 #  Muris Kurgas aka j0rgan
-#  Edited by Filip Sannervik
+#  Edited by Filip Sannervik aka Amorphous
 #
 #
 #  [License]
